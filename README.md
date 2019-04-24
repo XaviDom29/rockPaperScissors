@@ -2,7 +2,7 @@
 ***
 Esto es una web app en la que según el sexo que tu elijas se te genarara un nombre de super héroe o super heroína aleatorio.
 ***
-<img src="rock.jpg">
+<img src="rock.png">
 ***
 
 ### Dependencias
