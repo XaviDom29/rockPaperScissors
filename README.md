@@ -13,4 +13,17 @@ Esto es una web app en la que según el sexo que tu elijas se te genarara un nom
 - JAVASCRIPT ES5
 
 ### How it Works
-En primer lugar se declaran las constantes, después se ejecuta una función que genera un número aleatorio.
+Función 1:
+- Nombre: random
+- Argumentos: Acepta argumentos tipo string
+- Qué hace?: Genera un número aleatorio
+
+Función 2:
+- Nombre: piepaptij
+- Argumentos: Acepta argumentos tipo string
+- Qué hace?: Genera un número aleatorio
+
+Función 3:
+- Nombre: juagada
+- Argumentos: Acepta argumentos tipo string
+- Qué hace?: Genera un número aleatorio

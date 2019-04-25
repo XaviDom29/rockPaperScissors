@@ -1,6 +1,9 @@
 
 let array = ["piedra", "papel", "tijeras"];
 var divResultado = document.querySelectorAll('body > div > main > p:nth-child(6) > a')[0];
+const piedra = document.querySelectorAll('body > div > main > p:nth-child(3) > a')[0];
+const papel = document.querySelectorAll('body > div > main > p:nth-child(4) > a')[0];
+const tijera = document.querySelectorAll('body > div > main > p:nth-child(5) > a')[0];
 
 ////  FUNCTIONS
 function random(numero) {
@@ -31,6 +34,7 @@ function piepaptij(opcion) {
     return "Escoge una opcion Valida"
   }
 }
+
 function jugada(jugadaJugador) {
   let final = random(["piedra", "papel", "tijeras"]);
   let resultado = piepaptij([array[final], jugadaJugador]);
@@ -39,18 +43,14 @@ function jugada(jugadaJugador) {
 
 
 /// BINDS - EVENTOS
-const piedra = document.querySelectorAll('body > div > main > p:nth-child(3) > a')[0];
 piedra.addEventListener('click', function() {
   divResultado.innerHTML = jugada("piedra")
 })
 
-const papel = document.querySelectorAll('body > div > main > p:nth-child(4) > a')[0];
 papel.addEventListener('click', function() {
   divResultado.innerHTML = jugada("papel")
 })
 
-
-const tijera = document.querySelectorAll('body > div > main > p:nth-child(5) > a')[0];
 tijera.addEventListener('click', function() {
   divResultado.innerHTML = jugada("tijera")
 })
