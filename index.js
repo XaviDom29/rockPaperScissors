@@ -1,4 +1,4 @@
-
+//VARIABLES
 let array = ["piedra", "papel", "tijeras"];
 var divResultado = document.querySelectorAll('body > div > main > p:nth-child(6) > a')[0];
 const piedra = document.querySelectorAll('body > div > main > p:nth-child(3) > a')[0];
@@ -40,7 +40,6 @@ function jugada(jugadaJugador) {
   let resultado = piepaptij([array[final], jugadaJugador]);
   return resultado;
 }
-
 
 /// BINDS - EVENTOS
 piedra.addEventListener('click', function() {
